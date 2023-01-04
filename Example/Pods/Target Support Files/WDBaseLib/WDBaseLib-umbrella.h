@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "WDBaseHeader.h"
+#import "WDClendarManager.h"
+#import "WDDevice.h"
+#import "WDLocationManager.h"
+#import "WindBaseManager.h"
 
 FOUNDATION_EXPORT double WDBaseLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char WDBaseLibVersionString[];
