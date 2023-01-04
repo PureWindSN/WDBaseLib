@@ -62,16 +62,16 @@
                             completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks,
                                                 NSError * _Nullable error) {
             if (!error) {
-                NSDictionary *addressDic = placemarks.lastObject.addressDictionary;
-                NSString *city=[addressDic objectForKey:@"City"];
-                NSString *subLocality=[addressDic objectForKey:@"SubLocality"];
-                NSString *street=[addressDic objectForKey:@"Street"];
-                NSString *addressDetails = [NSString stringWithFormat:@"%@%@%@",city,subLocality,street];
+//                NSDictionary *addressDic = placemarks.lastObject.addressDictionary;
+//                NSString *city=[addressDic objectForKey:@"City"];
+//                NSString *subLocality=[addressDic objectForKey:@"SubLocality"];
+//                NSString *street=[addressDic objectForKey:@"Street"];
+//                NSString *addressDetails = [NSString stringWithFormat:@"%@%@%@",city,subLocality,street];
                 for (id delegate in weakSelf.delegates) {
                     if ([delegate respondsToSelector:@selector(didUpdateLocation:latitude:longitude:)]) {
-                        [delegate didUpdateLocation:addressDetails
-                                           latitude:location.coordinate.latitude
-                                          longitude:location.coordinate.longitude];
+//                        [delegate didUpdateLocation:addressDetails
+//                                           latitude:location.coordinate.latitude
+//                                          longitude:location.coordinate.longitude];
                     }
                 }
             } else {
@@ -90,17 +90,17 @@
         [gecoder reverseGeocodeLocation:location
                             completionHandler:^(NSArray *placemarks, NSError *error) {
             if (!error) {
-                CLPlacemark *placemark = placemarks.lastObject;
-                NSDictionary *addressDic = placemark.addressDictionary;
-                NSString *city=[addressDic objectForKey:@"City"];
-                NSString *subLocality=[addressDic objectForKey:@"SubLocality"];
-                NSString *street=[addressDic objectForKey:@"Street"];
-                NSString *addressDetails = [NSString stringWithFormat:@"%@%@%@",city,subLocality,street];
+//                CLPlacemark *placemark = placemarks.lastObject;
+//                NSDictionary *addressDic = placemark.addressDictionary;
+//                NSString *city=[addressDic objectForKey:@"City"];
+//                NSString *subLocality=[addressDic objectForKey:@"SubLocality"];
+//                NSString *street=[addressDic objectForKey:@"Street"];
+//                NSString *addressDetails = [NSString stringWithFormat:@"%@%@%@",city,subLocality,street];
                 for (id delegate in weakSelf.delegates) {
                     if ([delegate respondsToSelector:@selector(didUpdateLocation:latitude:longitude:)]) {
-                        [delegate didUpdateLocation:addressDetails
-                                           latitude:location.coordinate.latitude
-                                          longitude:location.coordinate.longitude];
+//                        [delegate didUpdateLocation:addressDetails
+//                                           latitude:location.coordinate.latitude
+//                                          longitude:location.coordinate.longitude];
                     }
                 }
             } else {
