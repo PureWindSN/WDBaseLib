@@ -1,0 +1,6 @@
+framework module WDBaseLib {
+  umbrella header "WDBaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
