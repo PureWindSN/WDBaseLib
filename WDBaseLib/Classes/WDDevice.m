@@ -718,8 +718,8 @@
 
 + (NSString *)getCarrierSignalStrength {
     if(@available(iOS 13.0, *)) {
-        NSArray *arr = [UIApplication sharedApplication].connectedScenes.allObjects;
-        UIWindowScene *scene = arr.firstObject;
+        //NSArray *arr = [UIApplication sharedApplication].connectedScenes.allObjects;
+        //UIWindowScene *scene = arr.firstObject;
         id statusBar =nil;
         if(statusBar) {
             id currentData = [[statusBar valueForKeyPath:@"_statusBar"] valueForKeyPath:@"currentData"];
