@@ -720,14 +720,7 @@
     if(@available(iOS 13.0, *)) {
         NSArray *arr = [UIApplication sharedApplication].connectedScenes.allObjects;
         UIWindowScene *scene = arr.firstObject;
-        UIStatusBarManager *statusBarManager = scene.statusBarManager;
         id statusBar =nil;
-//        if([statusBarManager respondsToSelector:@selector(createLocalStatusBar)]) {
-//            UIView *localStatusBar = [statusBarManager performSelector:@selector(createLocalStatusBar)];
-//            if([localStatusBar respondsToSelector:@selector(statusBar)]) {
-//                statusBar = [localStatusBar performSelector:@selector(statusBar)];
-//            }
-//        }
         if(statusBar) {
             id currentData = [[statusBar valueForKeyPath:@"_statusBar"] valueForKeyPath:@"currentData"];
             id cellularEntry = [currentData valueForKeyPath:@"cellularEntry"];

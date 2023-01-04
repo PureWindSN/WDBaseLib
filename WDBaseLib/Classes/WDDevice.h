@@ -101,8 +101,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)getSerialNumber;
 
-+ (NSString *)getCarrierSignalStrength;
-
 + (NSString *)getCurrentTimeStamp;
 
 + (BOOL)isOpenTheProxy;
