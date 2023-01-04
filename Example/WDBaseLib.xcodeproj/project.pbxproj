@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF5DBAB676CFB9A7644710D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AF5DBAB676CFB9A7644710D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BA3C7817E9D6F4C0AE1A372B /* Pods-WDBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDBaseLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-WDBaseLib_Example/Pods-WDBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BBBB87FDE0BFA657421997E0 /* Pods-WDBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDBaseLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WDBaseLib_Tests/Pods-WDBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D93B0CBF98B04D83A41A2F84 /* Pods_WDBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6887FA73B796AB40C48AFCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F1273876FC204E30937D8D71 /* WDBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WDBaseLib.podspec; path = ../WDBaseLib.podspec; sourceTree = "<group>"; };
+		E6887FA73B796AB40C48AFCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F1273876FC204E30937D8D71 /* WDBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WDBaseLib.podspec; path = ../WDBaseLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				BBBB87FDE0BFA657421997E0 /* Pods-WDBaseLib_Tests.debug.xcconfig */,
 				201B12F037EF7C8660435306 /* Pods-WDBaseLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -516,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WDBaseLib/WDBaseLib-Prefix.pch";
 				INFOPLIST_FILE = "WDBaseLib/WDBaseLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WDBaseLib/WDBaseLib-Prefix.pch";
 				INFOPLIST_FILE = "WDBaseLib/WDBaseLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
