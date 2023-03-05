@@ -7,6 +7,7 @@
 //
 
 #import "WDViewController.h"
+#import "WDBaseHeader.h"
 
 @interface WDViewController ()
 

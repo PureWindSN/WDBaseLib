@@ -8,7 +8,7 @@
 #ifndef WDBaseHeader_h
 #define WDBaseHeader_h
 
-#import "WDDevice.h"
+#import "WDBaseDevice.h"
 #import "WDLocationManager.h"
 #import "WDClendarManager.h"
 #endif /* WDBaseHeader_h */
