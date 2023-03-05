@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WDBaseLib (0.1.0)
+  - WDBaseLib (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WDBaseLib: 8ae63865e5eb5a8965ba069b8ceaed0a6365854f
+  WDBaseLib: 7ceacedcf577081b15a20cd384197561a1dc71aa
 
 PODFILE CHECKSUM: 3900e1c9103ee9f7352567321ab9c30b20b13bbb
 

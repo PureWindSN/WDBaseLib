@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DD1C7354CF6D43D339E9561D74A71BD /* WDClendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42A6D845E3B03789CBF119FEA04765 /* WDClendarManager.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2099899A85C49D02EF103A639FC13D47 /* WindBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA798FA167B6C1E07C450FB84A37CDE /* WindBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22E5457E228B279D99D2A1E8FDDFCD70 /* Pods-WDBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51307BFC70A80692BD5E1FC417378F42 /* Pods-WDBaseLib_Example-dummy.m */; };
+		25612D013872EABDF3A8C49F6FB8EA88 /* WDBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9847CD0E8485498091C1FF41BE049D /* WDBaseLib-dummy.m */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3B46036850CE577104F9D0D6F7C080B5 /* WDBaseHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FF02517334B9A8506DBE9B3E554E58 /* WDBaseHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44DD9EB7A96E899121B111ECBD1E268B /* WindBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D964D122A68B0613FC6A7F077849D4 /* WindBaseManager.m */; };
+		4B56C948448947B64ED109204D361D07 /* WDBaseDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D5A1CF756B655E892F86173C1839D9 /* WDBaseDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7062ABF6D916B514670AA963554B8F /* WDLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DECA1D3C45F44508A0B7953AFC11BBFA /* WDLocationManager.m */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5A07CDF14D158E1684C59990CDCA9516 /* WDBaseHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D2A644420DBC36C02AA62C42665FF8 /* WDBaseHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		61FDDC4A30C3A4AE399308B87A32FC5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,24 +33,18 @@
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		800E1144821E7991A3791266CDD3F037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		847F36980AD31681157F2559D4FC2DBC /* WindBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF04832F75B9714A6B01E8FFC4DEAB5 /* WindBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		909ECCDC358C510F2694A61DEFDC94F6 /* WDBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA46A6C745371C9E3773D074C3C93FC /* WDBaseLib-dummy.m */; };
-		941F3F948E422B3420F4258C76522762 /* WDBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 439EEDDE2631DA379DE0F1329D4C6500 /* WDBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94D9CA8AB921D5C7531C0EA457920D09 /* WDDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A86155C2CB916A5811AB701DC23E3D52 /* WDDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97E78B1E8902444A46B555FD0B5030E9 /* WindBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAB8B4BB925D0D1578E8FBC6AD6F71 /* WindBaseManager.m */; };
+		9AD2726AB6785164E55F982E61120A75 /* WDBaseDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F355710150F2D36BAA6A2EFB838B /* WDBaseDevice.m */; };
 		9D1156E35122A8DBBAB126CFDCFFBB8A /* Pods-WDBaseLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B561BE9802A5EA5371CF5A54250D42BC /* Pods-WDBaseLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		A1AFE84D52C57419DCE2C79FCFE07B86 /* WDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B468A8145AA7882BADF2BE39BB58A /* WDDevice.m */; };
-		AC5E2598721D774C5B9AD22B335E88F1 /* WDLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2685C4999E1605D20CF227C66D022 /* WDLocationManager.m */; };
-		B090F6E34893A2351DA4F5CEAD791DA0 /* WDClendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 237A5A7E5CE57A1220428BACAE666FAF /* WDClendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFA717E6DF2D85B5950E72C34BD08E1 /* WDBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E03A8D5DAC67499BDD2B8CC7A03D94 /* WDBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5C6EA50E042BBE7ED6620FEBF26D36F /* WDClendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0881A3D8257A2DEA63E9A0909705A695 /* WDClendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		B54BD7301497310FCEF842A16F7ACEFD /* WDLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA16E5C04FDD4608DCC10701096A264 /* WDLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C9E9790EA17BD7EDF36F128B8D35DFA7 /* WDClendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E5389CF557CA4D63DE685156B5773 /* WDClendarManager.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		FB210DC02598A91021ED1BC18E17251C /* WDLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13839A589E710E28213A57605A1945CC /* WDLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -73,73 +73,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0881A3D8257A2DEA63E9A0909705A695 /* WDClendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDClendarManager.h; path = WDBaseLib/Classes/WDClendarManager.h; sourceTree = "<group>"; };
 		0B1A3DAEBA38EB8889C32B7765D8336E /* Pods-WDBaseLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDBaseLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		17E2685C4999E1605D20CF227C66D022 /* WDLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDLocationManager.m; path = WDBaseLib/Classes/WDLocationManager.m; sourceTree = "<group>"; };
+		13839A589E710E28213A57605A1945CC /* WDLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDLocationManager.h; path = WDBaseLib/Classes/WDLocationManager.h; sourceTree = "<group>"; };
 		1872AABF4D6D402CA9C61CD56CD65499 /* Pods-WDBaseLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WDBaseLib_Example"; path = Pods_WDBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1AFC017C9444E607D546A39C1242C58A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1B55F09654FBB314E943D3699CE7E84D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1D42A6D845E3B03789CBF119FEA04765 /* WDClendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDClendarManager.m; path = WDBaseLib/Classes/WDClendarManager.m; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		237A5A7E5CE57A1220428BACAE666FAF /* WDClendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDClendarManager.h; path = WDBaseLib/Classes/WDClendarManager.h; sourceTree = "<group>"; };
+		243B73DFC8F2CD0368EC4F84729138A4 /* WDBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDBaseLib-prefix.pch"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		291A065E5FF3C6462CEE2EBA305E810C /* WDBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDBaseLib.release.xcconfig; sourceTree = "<group>"; };
-		2AA16E5C04FDD4608DCC10701096A264 /* WDLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDLocationManager.h; path = WDBaseLib/Classes/WDLocationManager.h; sourceTree = "<group>"; };
 		2BAC7921F2B4C5E7D55DEE79A0C75C1F /* Pods-WDBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		34FD220364CBC8EA902E734B524B71C7 /* Pods-WDBaseLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDBaseLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		35252A66A305FE54620385039DFFFAC6 /* Pods-WDBaseLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDBaseLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3600571DCEF9D086EE14E7D71A5FD58C /* Pods-WDBaseLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDBaseLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3951B12D4FE487EE448279AE4860E009 /* WDBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDBaseLib.modulemap; sourceTree = "<group>"; };
 		3A32BF9F5E7B3AC6C5DF72CE40C50626 /* Pods-WDBaseLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDBaseLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		41F8C5D7ED26EAF9CE0B153640DC5447 /* Pods-WDBaseLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDBaseLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		439EEDDE2631DA379DE0F1329D4C6500 /* WDBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDBaseLib-umbrella.h"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		483F95D01024E149C971743459D52075 /* Pods-WDBaseLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDBaseLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		4C5E5389CF557CA4D63DE685156B5773 /* WDClendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDClendarManager.m; path = WDBaseLib/Classes/WDClendarManager.m; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		51307BFC70A80692BD5E1FC417378F42 /* Pods-WDBaseLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDBaseLib_Example-dummy.m"; sourceTree = "<group>"; };
-		56727BB1C98872D68925D2051A19B6AE /* WDBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		578CC40A16420B8D2615E9D156B8D8B8 /* WDBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDBaseLib.debug.xcconfig; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F144E7828145677BABAA36346D96D26 /* Pods-WDBaseLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDBaseLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		654B468A8145AA7882BADF2BE39BB58A /* WDDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDDevice.m; path = WDBaseLib/Classes/WDDevice.m; sourceTree = "<group>"; };
+		63C1F355710150F2D36BAA6A2EFB838B /* WDBaseDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDBaseDevice.m; path = WDBaseLib/Classes/WDBaseDevice.m; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		719079782EF4AB78D2EDBF893AD3DA72 /* WDBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDBaseLib.debug.xcconfig; sourceTree = "<group>"; };
+		73644C3F9F6491058A458247A010C401 /* WDBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDBaseLib.modulemap; sourceTree = "<group>"; };
+		74DFADEA9B09DF0A3A3B1EF4E1A3E03D /* WDBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDBaseLib.release.xcconfig; sourceTree = "<group>"; };
 		789545A2EAD43DC539A2C2FA434E1C19 /* Pods-WDBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		79E46122E4C32D643C578D83A325F87D /* Pods-WDBaseLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDBaseLib_Tests.modulemap"; sourceTree = "<group>"; };
+		7CF54346B5E191FADE08BD89B4443B26 /* WDBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WDBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D9847CD0E8485498091C1FF41BE049D /* WDBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDBaseLib-dummy.m"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		84EAF0BC62AC487C39379A34B1A22986 /* WDBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDBaseLib-prefix.pch"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		89E03A8D5DAC67499BDD2B8CC7A03D94 /* WDBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDBaseLib-umbrella.h"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		8E60D6C6C86EBFB30A0D4BAB7B4F1776 /* Pods-WDBaseLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDBaseLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		8EDAB8B4BB925D0D1578E8FBC6AD6F71 /* WindBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WindBaseManager.m; path = WDBaseLib/Classes/WindBaseManager.m; sourceTree = "<group>"; };
+		90D964D122A68B0613FC6A7F077849D4 /* WindBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WindBaseManager.m; path = WDBaseLib/Classes/WindBaseManager.m; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		99FBEAFD66DAC788F5D47190A0E48A74 /* WDBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDBaseLib-Info.plist"; sourceTree = "<group>"; };
 		9D5DBE3A80181809422E79D70090E6D9 /* Pods-WDBaseLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDBaseLib_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A86155C2CB916A5811AB701DC23E3D52 /* WDDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDDevice.h; path = WDBaseLib/Classes/WDDevice.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA798FA167B6C1E07C450FB84A37CDE /* WindBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WindBaseManager.h; path = WDBaseLib/Classes/WindBaseManager.h; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B1FF02517334B9A8506DBE9B3E554E58 /* WDBaseHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDBaseHeader.h; path = WDBaseLib/Classes/WDBaseHeader.h; sourceTree = "<group>"; };
 		B561BE9802A5EA5371CF5A54250D42BC /* Pods-WDBaseLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDBaseLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		C4D5A1CF756B655E892F86173C1839D9 /* WDBaseDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDBaseDevice.h; path = WDBaseLib/Classes/WDBaseDevice.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CDC3F8D4FF263696C71B947FCE9BA340 /* Pods-WDBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CEFF80CCF3368F435AD557A3BEAA5BD9 /* Pods-WDBaseLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDBaseLib_Example.modulemap"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DECA1D3C45F44508A0B7953AFC11BBFA /* WDLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDLocationManager.m; path = WDBaseLib/Classes/WDLocationManager.m; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E7D2A644420DBC36C02AA62C42665FF8 /* WDBaseHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDBaseHeader.h; path = WDBaseLib/Classes/WDBaseHeader.h; sourceTree = "<group>"; };
 		E88BDF776022053FA8534C2A9ADD568A /* WDBaseLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDBaseLib; path = WDBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECF04832F75B9714A6B01E8FFC4DEAB5 /* WindBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WindBaseManager.h; path = WDBaseLib/Classes/WindBaseManager.h; sourceTree = "<group>"; };
 		F37CF81272907D4FE5F5AB1C6D5D4086 /* Pods-WDBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F3CFEF5D33DF807ED1CD2D43238643A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F642B7434991E5BFC0EA8544BF5ED227 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F81E58E200764B97804F05B653005437 /* WDBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDBaseLib-Info.plist"; sourceTree = "<group>"; };
 		F9A535D88C2EB1E436C8BE53A082A3A8 /* Pods-WDBaseLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WDBaseLib_Tests"; path = Pods_WDBaseLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBA46A6C745371C9E3773D074C3C93FC /* WDBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDBaseLib-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,16 +256,6 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		9FB48F3B78B1CC74F0AD82D936193C66 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F3CFEF5D33DF807ED1CD2D43238643A7 /* LICENSE */,
-				F642B7434991E5BFC0EA8544BF5ED227 /* README.md */,
-				56727BB1C98872D68925D2051A19B6AE /* WDBaseLib.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		B06F82BCF8E7BCC8F9A6F29BA1AEC2C9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,31 +280,31 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		BA45E30165C30978DE56D2359EF4DB12 /* WDBaseLib */ = {
-			isa = PBXGroup;
-			children = (
-				E7D2A644420DBC36C02AA62C42665FF8 /* WDBaseHeader.h */,
-				237A5A7E5CE57A1220428BACAE666FAF /* WDClendarManager.h */,
-				4C5E5389CF557CA4D63DE685156B5773 /* WDClendarManager.m */,
-				A86155C2CB916A5811AB701DC23E3D52 /* WDDevice.h */,
-				654B468A8145AA7882BADF2BE39BB58A /* WDDevice.m */,
-				2AA16E5C04FDD4608DCC10701096A264 /* WDLocationManager.h */,
-				17E2685C4999E1605D20CF227C66D022 /* WDLocationManager.m */,
-				ECF04832F75B9714A6B01E8FFC4DEAB5 /* WindBaseManager.h */,
-				8EDAB8B4BB925D0D1578E8FBC6AD6F71 /* WindBaseManager.m */,
-				9FB48F3B78B1CC74F0AD82D936193C66 /* Pod */,
-				BE782AE762738163FF27215090FFE4EC /* Support Files */,
-			);
-			name = WDBaseLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1ED9D010403E8099D1C88EE6987A72 /* WDBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				C4D5A1CF756B655E892F86173C1839D9 /* WDBaseDevice.h */,
+				63C1F355710150F2D36BAA6A2EFB838B /* WDBaseDevice.m */,
+				B1FF02517334B9A8506DBE9B3E554E58 /* WDBaseHeader.h */,
+				0881A3D8257A2DEA63E9A0909705A695 /* WDClendarManager.h */,
+				1D42A6D845E3B03789CBF119FEA04765 /* WDClendarManager.m */,
+				13839A589E710E28213A57605A1945CC /* WDLocationManager.h */,
+				DECA1D3C45F44508A0B7953AFC11BBFA /* WDLocationManager.m */,
+				9DA798FA167B6C1E07C450FB84A37CDE /* WindBaseManager.h */,
+				90D964D122A68B0613FC6A7F077849D4 /* WindBaseManager.m */,
+				C479D7853C563A47F694A5A307FF2991 /* Pod */,
+				F2DBDA31AF6E9F97E8E558D46F4547D7 /* Support Files */,
+			);
+			name = WDBaseLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
@@ -324,31 +314,25 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		BE782AE762738163FF27215090FFE4EC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3951B12D4FE487EE448279AE4860E009 /* WDBaseLib.modulemap */,
-				FBA46A6C745371C9E3773D074C3C93FC /* WDBaseLib-dummy.m */,
-				99FBEAFD66DAC788F5D47190A0E48A74 /* WDBaseLib-Info.plist */,
-				84EAF0BC62AC487C39379A34B1A22986 /* WDBaseLib-prefix.pch */,
-				439EEDDE2631DA379DE0F1329D4C6500 /* WDBaseLib-umbrella.h */,
-				719079782EF4AB78D2EDBF893AD3DA72 /* WDBaseLib.debug.xcconfig */,
-				291A065E5FF3C6462CEE2EBA305E810C /* WDBaseLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WDBaseLib";
 			sourceTree = "<group>";
 		};
 		C3F8165A84A46535E8BC36250B5986CB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA45E30165C30978DE56D2359EF4DB12 /* WDBaseLib */,
+				BC1ED9D010403E8099D1C88EE6987A72 /* WDBaseLib */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C479D7853C563A47F694A5A307FF2991 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B55F09654FBB314E943D3699CE7E84D /* LICENSE */,
+				1AFC017C9444E607D546A39C1242C58A /* README.md */,
+				7CF54346B5E191FADE08BD89B4443B26 /* WDBaseLib.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -371,6 +355,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F2DBDA31AF6E9F97E8E558D46F4547D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73644C3F9F6491058A458247A010C401 /* WDBaseLib.modulemap */,
+				7D9847CD0E8485498091C1FF41BE049D /* WDBaseLib-dummy.m */,
+				F81E58E200764B97804F05B653005437 /* WDBaseLib-Info.plist */,
+				243B73DFC8F2CD0368EC4F84729138A4 /* WDBaseLib-prefix.pch */,
+				89E03A8D5DAC67499BDD2B8CC7A03D94 /* WDBaseLib-umbrella.h */,
+				578CC40A16420B8D2615E9D156B8D8B8 /* WDBaseLib.debug.xcconfig */,
+				74DFADEA9B09DF0A3A3B1EF4E1A3E03D /* WDBaseLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WDBaseLib";
+			sourceTree = "<group>";
+		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,16 +384,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6EE753F19423762B1E6FDABDC314B4FB /* Headers */ = {
+		3A1AAC32002FFE827FD84643ABE09A59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A07CDF14D158E1684C59990CDCA9516 /* WDBaseHeader.h in Headers */,
-				941F3F948E422B3420F4258C76522762 /* WDBaseLib-umbrella.h in Headers */,
-				B090F6E34893A2351DA4F5CEAD791DA0 /* WDClendarManager.h in Headers */,
-				94D9CA8AB921D5C7531C0EA457920D09 /* WDDevice.h in Headers */,
-				B54BD7301497310FCEF842A16F7ACEFD /* WDLocationManager.h in Headers */,
-				847F36980AD31681157F2559D4FC2DBC /* WindBaseManager.h in Headers */,
+				4B56C948448947B64ED109204D361D07 /* WDBaseDevice.h in Headers */,
+				3B46036850CE577104F9D0D6F7C080B5 /* WDBaseHeader.h in Headers */,
+				9EFA717E6DF2D85B5950E72C34BD08E1 /* WDBaseLib-umbrella.h in Headers */,
+				A5C6EA50E042BBE7ED6620FEBF26D36F /* WDClendarManager.h in Headers */,
+				FB210DC02598A91021ED1BC18E17251C /* WDLocationManager.h in Headers */,
+				2099899A85C49D02EF103A639FC13D47 /* WindBaseManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,8 +474,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F20DE66A52698C862EE0400E3D2DBCA /* Build configuration list for PBXNativeTarget "WDBaseLib" */;
 			buildPhases = (
-				6EE753F19423762B1E6FDABDC314B4FB /* Headers */,
-				1497DB4345E48423687D9A8CBE18A2C1 /* Sources */,
+				3A1AAC32002FFE827FD84643ABE09A59 /* Headers */,
+				429A049EB0E2639F619A6732DBAE8801 /* Sources */,
 				6D9B70A43DF24E39308D3F0C0942F482 /* Frameworks */,
 				D3497EAC6EABB81D146D4A0B39B0E07D /* Resources */,
 			);
@@ -569,15 +568,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1497DB4345E48423687D9A8CBE18A2C1 /* Sources */ = {
+		429A049EB0E2639F619A6732DBAE8801 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909ECCDC358C510F2694A61DEFDC94F6 /* WDBaseLib-dummy.m in Sources */,
-				C9E9790EA17BD7EDF36F128B8D35DFA7 /* WDClendarManager.m in Sources */,
-				A1AFE84D52C57419DCE2C79FCFE07B86 /* WDDevice.m in Sources */,
-				AC5E2598721D774C5B9AD22B335E88F1 /* WDLocationManager.m in Sources */,
-				97E78B1E8902444A46B555FD0B5030E9 /* WindBaseManager.m in Sources */,
+				9AD2726AB6785164E55F982E61120A75 /* WDBaseDevice.m in Sources */,
+				25612D013872EABDF3A8C49F6FB8EA88 /* WDBaseLib-dummy.m in Sources */,
+				1DD1C7354CF6D43D339E9561D74A71BD /* WDClendarManager.m in Sources */,
+				4B7062ABF6D916B514670AA963554B8F /* WDLocationManager.m in Sources */,
+				44DD9EB7A96E899121B111ECBD1E268B /* WindBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,8 +892,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -902,7 +900,7 @@
 		};
 		94F54899A5DEA74274299FDC26DBDF24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291A065E5FF3C6462CEE2EBA305E810C /* WDBaseLib.release.xcconfig */;
+			baseConfigurationReference = 74DFADEA9B09DF0A3A3B1EF4E1A3E03D /* WDBaseLib.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -935,7 +933,7 @@
 		};
 		A3E8FBBC67F18EAB6A4FBDC465C9EB85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 719079782EF4AB78D2EDBF893AD3DA72 /* WDBaseLib.debug.xcconfig */;
+			baseConfigurationReference = 578CC40A16420B8D2615E9D156B8D8B8 /* WDBaseLib.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

@@ -10,9 +10,9 @@
 #endif
 #endif
 
+#import "DeviceInfo.h"
 #import "WDBaseHeader.h"
 #import "WDClendarManager.h"
-#import "WDDevice.h"
 #import "WDLocationManager.h"
 #import "WindBaseManager.h"
 
